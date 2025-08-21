@@ -30,15 +30,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      [
-        "@intercom/intercom-react-native",
-        {
-          "intercomRegion": "US"
-        }
-      ],
-      "expo-video"
-    ],
+    "plugins": ["expo-video"],
     "extra": {
       "eas": {
         "projectId": "fd3ccc8f-8b18-4f0c-b048-f15d77ba5274"
