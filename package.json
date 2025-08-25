@@ -20,5 +20,14 @@
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "exclude": [
+          "@intercom/intercom-react-native"
+        ]
+      }
+    }
+  },
   "private": true
 }
