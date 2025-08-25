@@ -4,9 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "expo start --dev-client",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "build": "npx eas-cli build --non-interactive --profile development --platform android"
   },
   "dependencies": {
     "@intercom/intercom-react-native": "^8.7.0",
